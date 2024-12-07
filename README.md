@@ -1,2 +1,3 @@
 # simple-chat-bot
-simple chatbot to respond msg from clients of a book store
+simple book store chatbot used to respond clients msgs
+
