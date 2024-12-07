@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good morning", "Good evening"],
+      "responses": ["Hello! Welcome to Book Haven. How can I assist you?", "Hi there! Looking for your next great read?", "Hey! Ready to dive into a new story?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Catch you later"],
+      "responses": ["Goodbye! Happy reading!", "See you soon! Don’t forget to bookmark us.", "Bye! Come back for more amazing books."]
+    },
+    {
+      "tag": "search_books",
+      "patterns": ["I'm looking for a book", "Can you help me find a book?", "Search for a book", "Find a book for me"],
+      "responses": ["Sure! Tell me the book title or author, and I’ll find it for you.", "What’s the title or genre? I’ll locate it for you in no time.", "Let me know what you’re looking for, and I’ll track it down."]
+    },
+    {
+      "tag": "recommend_books",
+      "patterns": ["Can you recommend a book?", "What should I read?", "Suggest a good book", "Any book recommendations?"],
+      "responses": [
+        "Absolutely! Do you prefer fiction, mystery, romance, or another genre?",
+        "Tell me your favorite genre or author, and I’ll suggest some gems.",
+        "I’ve got some great picks! Let’s start with your favorite type of story."
+      ]
+    },
+    {
+      "tag": "genres",
+      "patterns": ["What genres do you have?", "Genres available?", "Tell me about your genres", "Do you have fantasy books?"],
+      "responses": [
+        "We’ve got a wide range: fiction, non-fiction, fantasy, mystery, romance, sci-fi, and more!",
+        "From thrillers to self-help, we have it all. What are you interested in?",
+        "Our genres include fantasy, historical, biographies, young adult, and much more. Explore with us!"
+      ]
+    },
+    {
+      "tag": "bestsellers",
+      "patterns": ["What are your bestsellers?", "Show me the top books", "What’s trending?", "Popular books right now?"],
+      "responses": [
+        "Our bestsellers include 'The Midnight Library,' 'Atomic Habits,' and 'Where the Crawdads Sing.' Want to know more?",
+        "Trending books this week: 'Lessons in Chemistry,' 'The 48 Laws of Power,' and 'It Ends With Us.'",
+        "Check out our popular books section for the hottest reads right now!"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where’s my order?", "Track my order", "What’s my order status?", "Order update?"],
+      "responses": [
+        "Sure! Can you provide your order number so I can track it for you?",
+        "Let me check. Please share your order ID to proceed.",
+        "I’ll help you track it. What’s your order number?"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["What payment methods do you accept?", "Payment options?", "How can I pay?"],
+      "responses": [
+        "We accept credit cards, PayPal, and online bank transfers. Let me know if you have any questions!",
+        "Our payment options include Visa, Mastercard, PayPal, and more.",
+        "You can pay securely using various methods: debit/credit cards, digital wallets, or bank transfers."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["How can I return a book?", "Do you accept returns?", "Return policy?", "Can I return an order?"],
+      "responses": [
+        "Yes, we have a 30-day return policy. Please ensure the book is in its original condition.",
+        "You can return books within 30 days of purchase. Check out our return policy for details.",
+        "Returns are easy! Visit our returns page or contact support for assistance."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": ["Do you have any discounts?", "Current offers?", "Any sales?", "Discounted books?"],
+      "responses": [
+        "Yes! We have discounts on select titles. Check out our Deals section for the latest offers.",
+        "Looking for discounts? We’ve got some great deals on bestsellers and new arrivals.",
+        "You can find amazing discounts in our Promotions section. Don’t miss out!"
+      ]
+    },
+    {
+      "tag": "new_arrivals",
+      "patterns": ["What’s new?", "Latest books?", "New arrivals?", "What’s just in?"],
+      "responses": [
+        "Check out our latest arrivals! We’ve got fresh picks like 'Fourth Wing' and 'Spare.'",
+        "New on the shelf: 'The Covenant of Water,' 'Happy Place,' and more! Explore now.",
+        "Our New Arrivals section is updated daily. Find your next adventure!"
+      ]
+    },
+    {
+      "tag": "fun",
+      "patterns": ["Tell me a fun fact about books", "Entertain me with something bookish", "Do you have any book trivia?"],
+      "responses": [
+        "Fun fact: The longest sentence ever printed in a novel is 823 words! Found in 'Les Misérables' by Victor Hugo.",
+        "Did you know the most expensive book ever sold is Leonardo da Vinci’s 'Codex Leicester'? It went for $30.8 million!",
+        "Trivia time: The first novel ever written on a typewriter was Mark Twain’s 'The Adventures of Tom Sawyer.'"
+      ]
+    }
+  ]
+}
